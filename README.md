@@ -1,5 +1,12 @@
 JavaScript Client for IBM Bluemix Globalization-as-a-Service
 ===
+# DO NOT USE THIS BRANCH.
+
+* Note, this is the *experimental* branch. 
+* The experimental service (“IBM Globalization”) was launched on Bluemix in April of 2015 and will be discontinued shortly
+as of this writing - replaced by the Beta service (“Globalization Pipeline”) and subsequent versions.
+* For more on the Globalization Pipeline (Beta as of this writing) see here: https://www.ng.bluemix.net/docs/services/GlobalizationPipeline/index.html
+
 <!--
 /*	
  * Copyright IBM Corp. 2015
@@ -221,7 +228,8 @@ Do we have access to the server?
 
 <a name="module_gaas..Client#project"></a>
 ###client.project(projectID, props)
-Create a new Project object for further access.Note that this function doesn't create the project or fetch any information.
+Create a new Project object for further access.
+Note that this function doesn't create the project or fetch any information.
 
 **Params**
 
@@ -284,7 +292,8 @@ Remove the project
 
 <a name="module_gaas..Project#getInfo"></a>
 ###project.getInfo()
-Fetch project information. The callback is givena new Project object with updated information.
+Fetch project information. The callback is given
+a new Project object with updated information.
 
 <a name="module_gaas..Project#addTargetLanguages"></a>
 ###project.addTargetLanguages(args, cb)
@@ -322,7 +331,8 @@ Update resource data and/or retry translation
 
 <a name="module_gaas..Project#deleteLanguage"></a>
 ###project.deleteLanguage(args, cb)
-Delete a target language from the project.(Source languages cannot be deleted)
+Delete a target language from the project.
+(Source languages cannot be deleted)
 
 **Params**
 
