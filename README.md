@@ -5,7 +5,8 @@ JavaScript Client for IBM Bluemix Globalization-as-a-Service
 * Note, this is the *experimental* branch. 
 * The experimental service (“IBM Globalization”) was launched on Bluemix in April of 2015 and will be discontinued shortly
 as of this writing - replaced by the Beta service (“Globalization Pipeline”) and subsequent versions.
-* For more on the Globalization Pipeline (Beta as of this writing) see here: https://www.ng.bluemix.net/docs/services/GlobalizationPipeline/index.html
+* For more on the Globalization Pipeline (Beta as of this writing) see here: https://www.ng.bluemix.net/docs/services/GlobalizationPipeline/index.
+* use the *master* branch for the latest.
 
 <!--
 /*	
